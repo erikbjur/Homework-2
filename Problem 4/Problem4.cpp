@@ -9,5 +9,5 @@
 #include "MyFunctions.h"
 
 int main() {
-    MyFunctions::DrawTriangle();
+    MyFunctions::DrawTriangle( 5 );
 }
