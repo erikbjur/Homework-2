@@ -1,0 +1,124 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 1 - Mac",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}/Problem 1/Problem1.cpp",
+				"${workspaceFolder}/Problem 1/MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}/prob1.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 1 - Windows",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}\\Problem 1\\Problem1.cpp",
+				"${workspaceFolder}\\Problem 1\\MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}\\prob1.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 2 - Mac",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}/Problem 2/Problem2.cpp",
+				"${workspaceFolder}/Problem 2/MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}/prob2.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 2 - Windows",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}\\Problem 2\\Problem2.cpp",
+				"${workspaceFolder}\\Problem 2\\MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}\\prob2.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 3 - Mac",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}/Problem 3/Problem3.cpp",
+				"-o",
+				"${workspaceFolder}/prob3.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 3 - Windows",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}\\Problem 3\\Problem3.cpp",
+				"${workspaceFolder}\\Problem 3\\MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}\\prob3.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 4 - Mac",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}/Problem 4/Problem4.cpp",
+				"${workspaceFolder}/Problem 4/MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}/prob4.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Problem 4 - Windows",
+			"command": "clang++",
+			"args": [
+				"${workspaceFolder}\\Problem 4\\Problem4.cpp",
+				"${workspaceFolder}\\Problem 4\\MyFunctions.cpp",
+				"-o",
+				"${workspaceFolder}\\prob4.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

@@ -14,7 +14,8 @@ int main() {
         std::cout << "Enter number " << i + 1 << ":" << std::endl;
         std::cin >> numbers[i];
     }
-/*
+/*  Here was my first attempt...
+
     // Now we have all of our numbers lets figure out how to sort them
     // Create a variable to store the sorted list. Initialize with zeros
     int sorted_numbers[5]{0};  // Note that I need to use "-std=c++17" when I build
